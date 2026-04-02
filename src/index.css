@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+:root {
+  --accent: #e5e5e5;
+  --accent-bg: #cc7777;
+  --accent-border: #af1515;
+  --mono: "Geist Mono", monospace;
+}
+
+@theme {
+  --font-oswald: "Oswald", sans-serif;
+}
