@@ -10,3 +10,7 @@
 @theme {
   --font-oswald: "Oswald", sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
