@@ -10,61 +10,61 @@ const clients = [
     nombre: "Farsa Burgers",
     direccion: "Roque Graseras 885A",
     maps: "https://maps.app.goo.gl/62rexWbw6663aipCA",
-    img: "src/assets/noesfarsa.jpg",
+    img: "assets/noesfarsa.jpg",
   },
   {
     nombre: "Weiss",
     direccion: "Rambla Gral. Artigas y El Foque Puerto",
     maps: "https://maps.app.goo.gl/6Fbhnr33Jwyx1Ttx5",
-    img: "src/assets/weiss.jpg",
+    img: "assets/weiss.jpg",
   },
   {
     nombre: "Farsa Burgers",
     direccion: "Roque Graseras 885A",
     maps: "https://maps.app.goo.gl/62rexWbw6663aipCA",
-    img: "src/assets/noesfarsa.jpg",
+    img: "assets/noesfarsa.jpg",
   },
   {
     nombre: "Weiss",
     direccion: "Rambla Gral. Artigas y El Foque Puerto",
     maps: "https://maps.app.goo.gl/6Fbhnr33Jwyx1Ttx5",
-    img: "src/assets/weiss.jpg",
+    img: "assets/weiss.jpg",
   },
   {
     nombre: "Farsa Burgers",
     direccion: "Roque Graseras 885A",
     maps: "https://maps.app.goo.gl/62rexWbw6663aipCA",
-    img: "src/assets/noesfarsa.jpg",
+    img: "assets/noesfarsa.jpg",
   },
   {
     nombre: "Weiss",
     direccion: "Rambla Gral. Artigas y El Foque Puerto",
     maps: "https://maps.app.goo.gl/6Fbhnr33Jwyx1Ttx5",
-    img: "src/assets/weiss.jpg",
+    img: "assets/weiss.jpg",
   },
   {
     nombre: "Farsa Burgers",
     direccion: "Roque Graseras 885A",
     maps: "https://maps.app.goo.gl/62rexWbw6663aipCA",
-    img: "src/assets/noesfarsa.jpg",
+    img: "assets/noesfarsa.jpg",
   },
   {
     nombre: "Weiss",
     direccion: "Rambla Gral. Artigas y El Foque Puerto",
     maps: "https://maps.app.goo.gl/6Fbhnr33Jwyx1Ttx5",
-    img: "src/assets/weiss.jpg",
+    img: "assets/weiss.jpg",
   },
   {
     nombre: "Farsa Burgers",
     direccion: "Roque Graseras 885A",
     maps: "https://maps.app.goo.gl/62rexWbw6663aipCA",
-    img: "src/assets/noesfarsa.jpg",
+    img: "assets/noesfarsa.jpg",
   },
   {
     nombre: "Weiss",
     direccion: "Rambla Gral. Artigas y El Foque Puerto",
     maps: "https://maps.app.goo.gl/6Fbhnr33Jwyx1Ttx5",
-    img: "src/assets/weiss.jpg",
+    img: "assets/weiss.jpg",
   },
 ];
 
@@ -72,7 +72,7 @@ export default function Clients() {
   return (
     <div
       id="clientes"
-      className="w-full bg-zinc-950 text-zinc-50 py-16 px-6 md:px-20 border-b-2 border-white"
+      className="scroll-mt-28 w-full bg-zinc-950 text-zinc-50 py-16 px-6 md:px-20 border-b-2 border-white"
     >
       <h2 className="font-oswald text-4xl font-extrabold mb-2 text-center">
         ¿Todavía no nos conocés?

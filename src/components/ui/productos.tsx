@@ -5,7 +5,7 @@ export default function Productos() {
     <>
       <section
         id="productos"
-        className="w-full h-auto bg-black border-b-2 border-white font-oswald font-medium text-zinc-50"
+        className="scroll-mt-28 w-full h-auto bg-black border-b-2 border-white font-oswald font-medium text-zinc-50"
       >
         <div className="grid grid-cols-2 md:grid-cols-4 p-5 text-xl ">
           <div className="col-span-1 flex justify-center px-4 border-x border-zinc-700 mb-8">

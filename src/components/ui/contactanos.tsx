@@ -2,7 +2,7 @@ export default function Contactanos() {
   return (
     <section
       id="contactanos"
-      className="w-full h-auto bg-black border-b-2 border-white font-oswald"
+      className="scroll-mt-28 w-full h-auto bg-black border-b-2 border-white font-oswald"
     >
       <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center py-16 px-6 md:px-20 gap-16 ">
         <div className="col-span-1">

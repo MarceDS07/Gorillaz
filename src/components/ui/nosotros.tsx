@@ -3,15 +3,15 @@ export default function Nosotros() {
     <>
       <section
         id="nosotros"
-        className="w-full h-auto bg-black border-b-2 border-white flex flex-col items-center justify-center gap-10 text-zinc-50 font-oswald"
+        className="scroll-mt-28 w-full h-auto bg-black border-b-2 border-white flex flex-col items-center justify-center gap-10 text-zinc-50 font-oswald"
       >
         <img
-          src="src\assets\dueños.webp"
+          src="assets/dueños.webp"
           alt=""
           className=" h-[85vh] w-full object-cover"
         />
         <h1 className="text-5xl font-extrabold">SOMOS GORILLAZ</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 w-full h-auto px-10 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 w-full h-auto md:px-10 mb-16">
           <Mision />
           <Vision />
         </div>

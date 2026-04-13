@@ -6,7 +6,7 @@ const products = [
     description:
       "Descripción breve del producto con sus características principales.",
     price: "$12.500",
-    img: "src/assets/panes.webp",
+    img: "assets/panes.webp",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const products = [
     description:
       "Descripción breve del producto con sus características principales.",
     price: "$8.900",
-    img: "src/assets/catalanes.webp",
+    img: "assets/catalanes.webp",
   },
   {
     id: 1,
@@ -24,7 +24,7 @@ const products = [
     description:
       "Descripción breve del producto con sus características principales.",
     price: "$12.500",
-    img: "src/assets/panes.webp",
+    img: "assets/panes.webp",
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ const products = [
     description:
       "Descripción breve del producto con sus características principales.",
     price: "$8.900",
-    img: "src/assets/catalanes.webp",
+    img: "assets/catalanes.webp",
   },
 ];
 
@@ -43,7 +43,7 @@ export default function ProductCards() {
       <h2 className="text-4xl font-bold text-center md:text-left md:pl-8 text-zinc-50 mb-12">
         NUESTROS PANES
       </h2>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-16">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-16">
         {products.map((product) => (
           <div key={product.id} className="overflow-hidden flex flex-col">
             <div className="w-full aspect-4/3 overflow-hidden rounded-2xl border border-zinc-700">

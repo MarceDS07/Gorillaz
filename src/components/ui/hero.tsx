@@ -19,21 +19,21 @@ export default function Hero() {
           <CarouselContent className="h-[85vh] ml-0">
             <CarouselItem className="h-full pl-0">
               <img
-                src="src/assets/primera.jpg"
+                src="assets/primera.jpg"
                 className="w-full h-full object-cover block"
                 alt=""
               />
             </CarouselItem>
             <CarouselItem className="h-full pl-0">
               <img
-                src="src/assets/primera.jpg"
+                src="assets/primera.jpg"
                 className="w-full h-full object-cover block"
                 alt=""
               />
             </CarouselItem>
             <CarouselItem className="h-full pl-0">
               <img
-                src="src/assets/primera.jpg"
+                src="assets/primera.jpg"
                 className="w-full h-full object-cover block"
                 alt=""
               />

@@ -21,13 +21,13 @@ export default function Header() {
       >
         <div className="flex flex-row items-center justify-evenly">
           <a
-            className="hover:scale-150 transition duration-300"
+            className="hover:scale-150 transition duration-300 text-center"
             href="#productos"
           >
             PRODUCTOS
           </a>
           <a
-            className="hover:scale-150 transition duration-300"
+            className="hover:scale-150 transition duration-300 text-center"
             href="#clientes"
           >
             NUESTROS CLIENTES
@@ -37,18 +37,18 @@ export default function Header() {
           href="#hero"
           className="h-full py-4 flex flex-row md:flex-col  items-center"
         >
-          <img src="src\assets\isotipo.png" className="h-3/4 w-auto" />
-          <img src="src\assets\logotipo.png" className="h-1/3 w-auto" />
+          <img src="assets\isotipo.png" className="h-3/4 w-auto" />
+          <img src="assets\logotipo.png" className="h-1/3 w-auto" />
         </a>
         <div className="flex flex-row items-center justify-evenly">
           <a
-            className="hover:scale-150 transition duration-300"
+            className="hover:scale-150 transition duration-300 text-center"
             href="#nosotros"
           >
             NOSOTROS
           </a>
           <a
-            className="hover:scale-150 transition duration-300"
+            className="hover:scale-150 transition duration-300 text-center"
             href="#contactanos"
           >
             CONTACTANOS
@@ -65,8 +65,8 @@ export default function Header() {
             }`}
       >
         <div className="h-full py-4 flex flex-row md:flex-col  items-center">
-          <img src="src\assets\isotipo.png" className="h-3/4 w-auto" />
-          <img src="src\assets\logotipo.png" className="h-1/3 w-auto" />
+          <img src="assets\isotipo.png" className="h-3/4 w-auto" />
+          <img src="assets\logotipo.png" className="h-1/3 w-auto" />
         </div>
       </header>
     </>
