@@ -1,75 +1,54 @@
-# React + TypeScript + Vite
+# Gorillaz — Landing Page Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Demo de landing page desarrollada como propuesta de interfaz web para la empresa **Gorillaz**. El objetivo fue presentar un frontend moderno, responsivo y de alto rendimiento como punto de partida para una futura plataforma web del negocio.
 
-Currently, two official plugins are available:
+🔗 **[Ver demo en vivo](https://marceds07.github.io/Gorillaz/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Descripción
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Propuesta de interfaz construida de forma independiente para demostrar capacidades técnicas y de diseño orientadas a las necesidades del negocio. La landing fue diseñada para comunicar la identidad de la marca y servir como base escalable para futuras funcionalidades.
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## Stack tecnológico
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+| Tecnología | Uso |
+|---|---|
+| React | Biblioteca principal de UI |
+| TypeScript | Tipado estático y mantenibilidad |
+| Tailwind CSS | Sistema de estilos utilitario |
+| Vite | Bundler y entorno de desarrollo |
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Características
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Diseño responsivo adaptado a móvil, tablet y escritorio
+- Componentes reutilizables y tipados con TypeScript
+- Estilos consistentes con sistema de utilidades Tailwind CSS
+- Estructura de proyecto escalable para futuras integraciones
+
+---
+
+## Instalación y uso local
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/MarceDS07/Gorillaz.git
+
+# Instalar dependencias
+npm install
+
+# Iniciar servidor de desarrollo
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Autor
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+**Marcelo de Souza**
+Desarrollador Frontend — Montevideo, Uruguay
+[github.com/MarceDS07](https://github.com/MarceDS07) • marce.de.souza.25@gmail.com
